@@ -10,27 +10,17 @@ body {background-color: rgb(91, 82, 82); }
 p {text-align: center; background-color: black; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 22px;
      width: 30%; margin: auto;}
      button:hover{cursor: pointer;}
-     /* Estilos padrão (para dispositivos menores, como smartphones) */
-     @media (min-width:468px) {
-body {
-     font-size: 16px;
- }
-}
- 
- /* Breakpoint para tablets (a partir de 768px) */
- @media (min-width: 768px) {
-     body {
-         font-size: 18px;
-     }
- }
- 
- /* Breakpoint para desktops (a partir de 1024px) */
- @media (min-width: 1024px) {
-     body {
-         font-size: 20px;
-     }
- }
+    @media screen and (max-width:768px) {
+        h1 {font-size: 22px;}
+        #cx1 {width: 100%;}
+        #cx1 button {font-size: 14px;}
+        p {font-size: 14px; width: 100%;}
+        
+    }
 
+
+
+  
      
      
 
